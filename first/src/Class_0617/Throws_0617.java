@@ -5,7 +5,7 @@ import java.sql.*;
 public class Throws_0617 {
 
 	public static void main(String[] args) throws SQLException {
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/java?useSSL=false","root","apmsetup");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3307/java?useSSL=false","root","1234");
 		
 		Statement stmt = conn.createStatement();
 		
