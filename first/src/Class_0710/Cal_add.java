@@ -8,7 +8,7 @@ public class Cal_add extends JFrame implements ActionListener { // 입력박스 두개
 	TextField num1 = new TextField(4);
 	TextField num2 = new TextField(4);
 	TextField result = new TextField(4);
-	Button btn1 = new Button("더하기");
+	Button btn = new Button("더하기");
 	
 	Cal_add() { 
 		this.setSize(400, 100);
@@ -17,7 +17,7 @@ public class Cal_add extends JFrame implements ActionListener { // 입력박스 두개
 		
 		add(num1);
 		add(num2);
-		add(btn1);
+		add(btn);
 		add(result);
 	}
 
